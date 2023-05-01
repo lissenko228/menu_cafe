@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.menu
+{
+    background: #E9E9E3;
+    height: 1277px;
+    padding: 120px 56px;
+    display: flex;
+    gap: 106px;
+}
+
+.title
+{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F6F64;
+}
+
+.desc
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #6F6F64;
+    width: 558px;
+    padding-top: 17px;
+}
+
+.butts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 74px;
+}
+
+.butts a
+{
+    border: 2px solid #6F6F64;
+    border-radius: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6F6F64;
+    transition: 0.5s;
+    width: 531px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.butts a:hover
+{
+    background: #6F6F64;
+    color: #fff;
+}
+
+.butts a:focus
+{
+    background-color: #6F6F64 !important;
+    color: #fff;
+}
+
+.pic
+{
+    width: 664px;
+    height: 1037px;
+}
+
+.pic img
+{
+    width: 100%;
+}
